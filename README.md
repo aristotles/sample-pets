@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Pet Selecter React App
+#### By Sam Kratsas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###### Written in JavaScript
+######  Run command:
+~~~
+npm i
+npm start
+~~~
 
-## Available Scripts
 
-In the project directory, you can run:
+## Tasks
+Gather data from "https://dev.wagmo.io/api/1.0/breeds/" and allow the user to interact with it in a react application by selecting the pet species then the pet type. 
 
-### `npm start`
+## Approach
+Created a very structured approach. Every function, component, enum is its own file. Props and states are passed between them to update the ui and perform functions. A variety of open source ui components were used as building blocks to create the desired interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Hurdles
+Two hurdles faced were, trouble getting the cat image from Figma. This lead to the realization that the images were seen in the quote funnel, used the urls from the images in the react app. Also the Figma design seemed to be made for a mobile application. While I could have changed the react view to a mobile device, I made my components suited for a standard webpage.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Next Steps
+I believe good software is subjective and can never be perfect, constant updating and improvements are always needed. So when it was time to stop this project there were still many things I could have added, including:
+- Unit testing, integration testing, and cypress component testing.
+- The user's breed appears at the bottom of the screen once selected/entered.
+- further refactoring of the code structure, and removing unneeded code from create-react-app.
