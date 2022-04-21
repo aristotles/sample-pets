@@ -1,0 +1,13 @@
+@font-face {
+  font-family: pet;
+  src: url(//db.onlinewebfonts.com/t/af66aa5680372d137e074a1ab91718ee.woff);
+}
+
+.CustomHeader{
+
+width: 100% !important;
+height: 48px !important;
+color: red !important;
+font-family: 'pet';
+background: #FFFFFF;
+}

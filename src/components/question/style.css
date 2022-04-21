@@ -1,0 +1,18 @@
+@font-face {
+  font-family: pet;
+  src: url(//db.onlinewebfonts.com/t/af66aa5680372d137e074a1ab91718ee.woff);
+}
+
+.questionClass{
+width: 334px;
+height: 60px;
+padding-left: 24px;
+display: relative;
+font-family: 'pet';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 60px;
+
+color: #FFFFFF;
+}
